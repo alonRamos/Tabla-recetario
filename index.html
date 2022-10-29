@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<title>Platillos</title>
+</head>
+<body> 
+    <table class="table table-striped table table-hover table table-bordered">
+        <thead>
+        <tr>
+            <th class="table-info">Platillo</th>
+            <th class="table-info">Nombre</th>
+            <th class="table-info">País de Origen</th>
+            <th class="table-info">Receta</th>
+            <th class="table-info">Donde comprar</th>
+            <th class="table-info">Opciones</th>
+        </tr>
+        </thead>
+    
+    <tbody class="table-group-divider">
+        <tr>
+            <td> <figure class="figure">
+                <img src="../imagenes/birria-tacos.jpg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Tacos de Birria</td>
+            <td>México <figure class="figure">
+                <img src="../imagenes/Flag_of_Mexico_(1934-1968).svg.png" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td> 
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="TacosdeBirria()">Receta</i></span>
+             </td>
+            <td> 
+                <p> <i class="bi bi-caret-right"></i> Taquerilla los potrillos</p>
+                <p> <i class="bi bi-caret-right"></i> Tacos hermanos</p>
+                <p> <i class="bi bi-caret-right"></i> Mr Taco</p>
+                <p> <i class="bi bi-caret-right"></i> Carnitas Mamá Chuz</p> 
+                <p> <i class="bi bi-caret-right"></i> El Zocalo</p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Tacos de res</p>
+                <p><i class="bi bi-caret-right-fill"></i> Tacos de lengua</p>
+                <p> <i class="bi bi-caret-right-fill"> </i>Tacos de corazon</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Tacos de canasta</p>     
+            </td>
+        </tr>
+        <tr>
+            <td> <figure class="figure">
+                <img src="../imagenes/mejores_restaurantes_de_sushi_en_guadalajara_409_orig.jpg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo paella">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Sushi</td>
+            <td>Japon <figure class="figure">
+                <img src="../imagenes/bandera-japon_sm.png" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td>
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="Sushi()">Receta</i></span>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right"></i> KOI Sushi</p>
+                <p> <i class="bi bi-caret-right"></i> Kamakura</p>
+                <p> <i class="bi bi-caret-right"></i> Brutto</p>
+                <p> <i class="bi bi-caret-right"></i> Benihana</p>
+                <p> <i class="bi bi-caret-right"></i> Soho Japanese</p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Maki</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Uramaki</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Nigiri</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Inari</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Gunkan</p>
+            </td>
+        </tr>
+        <tr>
+            <td> <figure class="figure">
+                <img src="../imagenes/easy-macaron-recipe-435221-hero-01-b3680f676df64f5ab2c1e65976c0e945.jpg" width="300px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo Ratatouille">
+                <figcaption class="figure-caption">Foto Platillo</figcaption>
+              </figure> 
+            </td>
+            <td>Macarrons</td>
+            <td>Francia <figure class="figure">
+                <img src="../imagenes/3e89fdc6a209c1d4670cf1456bed14a7--flag-of-france-paris-france.jpg" width="52px" class="figure-img img-fluid rounded" alt=".Imagen de Platillo guacamole">
+                <figcaption class="figure-caption"></figcaption>
+              </figure> </td>
+            <td>
+                <span class="badge text-bg-info"><i style="color: aliceblue;" onclick="Macarrons()">Receta</i></span>
+            </td>
+            <td> 
+                <p> <i class="bi bi-caret-right"></i> Brutto </p>
+                <p> <i class="bi bi-caret-right"></i> Le Croissant Multiplaza</p>
+                <p> <i class="bi bi-caret-right"></i> Délice d' la France</p>
+                <p> <i class="bi bi-caret-right"></i> Sucrée </p>
+                <p> <i class="bi bi-caret-right"></i> Le Croissant San Benito </p>
+            </td>
+            <td>
+                <p> <i class="bi bi-caret-right-fill"></i> Macarrons blancos </p>
+                <p> <i class="bi bi-caret-right-fill"></i> Macarrons rosados </p>
+                <p> <i class="bi bi-caret-right-fill"></i> Macarrons verdes</p>
+                <p> <i class="bi bi-caret-right-fill"></i> Macarrons azules</p>
+            </td>
+        </tr>
+</tbody>
+<tfoot>
+    <th> <i class="bi bi-cash-coin"></i> Precios</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th> <span class="badge text-bg-warning">Entre $4.00 a $15.00 dólares</span> </th>
+    <th></th>
+</tfoot>
+</table>
+
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+   function TacosdeBirria () {
+
+    Swal.fire({
+  title: 'Tacos de Birria',
+  html: 
+  'Mezclar la carne o el pollo en un sartén, agregar condimentos, cebolla y cilantro, servir en las tortillas de maíz y agregar limón al gusto',
+  
+  imageUrl: '../imagenes/birria-tacos.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+})
+       
+   }
+</script>
+
+<script>
+    function Sushi() {
+ 
+     Swal.fire({
+   title: 'Sushi',
+   html: 
+   'Lavar el arroz, cocinar el arroz y esperar que se enfríe, extender las algas , sobre ellas agregar el arroz, el pescado o cangrejo, vegetales y enrollar',
+   
+   imageUrl: '../imagenes/mejores_restaurantes_de_sushi_en_guadalajara_409_orig.jpg',
+   imageWidth: 300,
+   imageHeight: 200,
+   imageAlt: 'Custom image',
+ })
+        
+    }
+ </script>
+
+<script>
+    function Macarrons() {
+ 
+     Swal.fire({
+   title: 'Macarrons',
+   html: 
+   'Tamizar la harina de almendras junto con la azúcar glas, mezclar, agregar colorante de su preferencia, mezclar dicha masa con claras y verificar que no se baje la mezcla, agregar la mezcla a una manga pastelera y poner en moldes para su cocción',
+   
+   imageUrl: '../imagenes/easy-macaron-recipe-435221-hero-01-b3680f676df64f5ab2c1e65976c0e945.jpg',
+   imageWidth: 300,
+   imageHeight: 200,
+   imageAlt: 'Custom image',
+ })
+        
+    }
+ </script>
+
+</html>
